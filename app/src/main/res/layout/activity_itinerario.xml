@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ItinerarioActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Rotas Disponíveis:"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvRotaDisp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Período da rota:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="40dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPeriodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="500dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="25sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnIniciarIt"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="80dp"
+        android:text="Iniciar Itinerário"
+        android:textColor="@color/white"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Voltar ao Início"
+        android:textColor="@color/white"
+        app:cornerRadius="5dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="500dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOpenMap"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="Ver Rotas"
+        android:textColor="@color/white"
+        app:cornerRadius="5dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:text="Digite a rota para confirmá-la:"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etRota"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="@color/white" />
+
+
+</RelativeLayout>

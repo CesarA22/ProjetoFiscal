@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatusVeiculoActivity"
+    android:background="@color/gray">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placa:"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etPlaca"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/white"
+        android:hint="Digite a placa"
+        android:paddingLeft="10dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="47.5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="73dp"
+        android:layout_marginRight="25dp"
+        android:text="Consultar"
+        android:textColor="@color/white"
+        app:cornerRadius="5dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+        android:text="Situação:"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvInfo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pago"
+        android:textColor="@color/green"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginTop="140dp"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvInfo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="Não Pago"
+        android:textColor="@color/red"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:focusable="false"
+        android:layout_marginTop="200dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:text="Placa Consultada:"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPlacaDigitada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="340dp"
+        android:text="Horário de Estadia:"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHorarioEstadia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="380dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHorarioEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="480dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvIrreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:text="Irregular. Registre Ocorrência."
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOpenRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="Registrar Ocorrência"
+        android:textColor="@color/white"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Voltar ao Início"
+        android:textColor="@color/white"
+        app:cornerRadius="5dp" />
+
+
+
+
+</RelativeLayout>

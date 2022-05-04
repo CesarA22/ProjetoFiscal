@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "565650383607",
+    "project_id": "projeto-versaofiscal-346018",
+    "storage_bucket": "projeto-versaofiscal-346018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565650383607:android:5bbee66ea5a86e98ff69f2",
+        "android_client_info": {
+          "package_name": "br.com.zonaazul.projetofiscal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565650383607-739mt5krb6je77udt24g2e1mh5jnbo3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSqXploO2j65ERcqQv1cUgG2i8xhTi_ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565650383607-739mt5krb6je77udt24g2e1mh5jnbo3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjetoFiscal</string>
+
+    <string-array name="namesDropDown">
+        <item>Rota 1</item>
+        <item>Rota 2</item>
+        <item>Rota 3</item>
+        <item>Rota 4</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+
+</resources>
